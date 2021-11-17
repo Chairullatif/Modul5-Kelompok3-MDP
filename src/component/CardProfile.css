@@ -1,0 +1,69 @@
+.cardProf {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: rgb(10, 71, 71);
+}
+
+.cardChild {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.photoProfile {
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+}
+
+.descriptionProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.buttonGit {
+  display: flex;
+  justify-content: center;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Verdana;
+  cursor: pointer;
+}
+
+#titleProfile {
+  color: white;
+  font-size: 22px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-family: Verdana;
+}
+
+#univProfile {
+  color: rgb(255, 255, 255);
+  font-family: Verdana;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+#nimProfile {
+  color: grey;
+  font-family: Verdana;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
